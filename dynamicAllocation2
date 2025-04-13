@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int integerValue1 = 0;
+    int integerValue2 = 0;
+    int* dynamicValues = nullptr;
+    cout << "Enter integervalue1 "<< endl;
+    cin >> integerValue1;
+     cout << "Enter integervalue2 "<< endl;
+    cin >> integerValue2;
+    dynamicValues = new int [integerValue1][integerValue2]; 
+}
